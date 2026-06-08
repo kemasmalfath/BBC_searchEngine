@@ -1312,6 +1312,24 @@ mark {
         margin-bottom: 2rem;
         padding-bottom: 1rem;
     }
+
+    /* Confusion Matrix responsive adjustments */
+    .matrix-container {
+        padding: 1.5rem !important;
+    }
+    .metrics-summary-container {
+        padding: 1.5rem !important;
+    }
+    .matrix-grid {
+        grid-template-columns: 120px 1fr 1fr;
+        gap: 10px;
+    }
+    .matrix-label-cell {
+        font-size: 0.75rem;
+    }
+    .matrix-data-cell {
+        padding: 10px 8px !important;
+    }
 }
 
 /* --- Small phone breakpoint (max-width: 480px) --- */
@@ -1396,6 +1414,44 @@ mark {
         flex-direction: column;
         align-items: center;
         gap: 0.5rem;
+    }
+
+    /* Confusion Matrix mobile phone adjustments */
+    .matrix-container {
+        padding: 1rem !important;
+    }
+    .matrix-container h5 {
+        font-size: 1rem;
+        margin-bottom: 1rem !important;
+    }
+    .matrix-grid {
+        grid-template-columns: 90px 1fr 1fr;
+        gap: 6px;
+    }
+    .matrix-header-cell {
+        font-size: 0.7rem;
+        padding: 2px;
+    }
+    .matrix-label-cell {
+        font-size: 0.68rem;
+        padding-right: 4px !important;
+    }
+    .matrix-data-cell {
+        padding: 8px 4px !important;
+    }
+    .matrix-data-cell .fs-4 {
+        font-size: 1.1rem !important;
+    }
+    .matrix-data-cell small {
+        font-size: 0.58rem !important;
+        line-height: 1.1;
+    }
+    .metrics-summary-container {
+        padding: 1rem !important;
+    }
+    .metrics-summary-container h5 {
+        font-size: 1.05rem;
+        margin-bottom: 1rem !important;
     }
 }
 
