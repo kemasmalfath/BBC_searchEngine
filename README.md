@@ -10,6 +10,20 @@ Proyek ini merupakan implementasi **Sistem Temu Kembali Informasi (STKI)** berba
 
 ---
 
+## 👥 Anggota Kelompok (Tim Pengembang)
+
+Proyek ini dikembangkan oleh kelompok mahasiswa **Universitas Lampung**:
+
+| Nama Anggota | NPM | Kelas |
+| :--- | :--- | :---: |
+| **Muhammad Fa'jri Ramadhani** | 2357051004 | A |
+| **Nabila Cahaya Putri** | 2357051010 | B |
+| **Kemas Muhammad A.I** | 2317051072 | B |
+| **S Agung Setiawan** | 2317051011 | B |
+| **Khomarul Hidayat** | 2317051029 | A |
+
+---
+
 ## 📖 Deskripsi Proyek
 
 **The BBC Chronicle** adalah mesin pencari (*search engine*) artikel berita BBC yang mencakup 5 kategori utama: *Business*, *Entertainment*, *Politics*, *Sport*, dan *Tech*. Sistem ini dibangun menggunakan konsep **Vector Space Model (VSM)** dengan pembobotan **TF-IDF** dan pengukuran kemiripan dokumen menggunakan **Cosine Similarity**.
@@ -59,40 +73,6 @@ Berikut adalah struktur berkas utama di dalam repositori:
 
 ---
 
-## 🚀 Panduan Instalasi dan Menjalankan Secara Lokal
-
-Ikuti langkah-langkah di bawah ini untuk menjalankan proyek ini di komputer lokal Anda:
-
-### 1. Prasyarat
-Pastikan komputer Anda sudah terpasang **Python 3.8** atau versi yang lebih baru.
-
-### 2. Kloning Repositori
-Kloning repositori ini ke komputer lokal Anda:
-```bash
-git clone https://github.com/kemasmalfath/BBC_searchEngine.git
-cd BBC_searchEngine
-```
-
-### 3. Instalasi Dependensi
-Instal pustaka Python yang diperlukan menggunakan `pip`:
-```bash
-pip install -r requirements.txt
-```
-
-### 4. Menyiapkan Dataset (Opsional jika sudah ada)
-Pastikan dataset artikel berita Anda diletakkan pada folder berikut:
-`dataset/News Articles/` (berisi sub-folder kategori: `business`, `entertainment`, `politics`, `sport`, `tech`). Jika belum ada, Anda dapat mengunggah file ZIP dataset langsung melalui halaman utama web.
-
-### 5. Jalankan Aplikasi
-Jalankan Flask server lokal dengan perintah:
-```bash
-python app.py
-```
-Setelah server berjalan, buka browser Anda dan akses alamat:
-👉 **`http://localhost:5000`**
-
----
-
 ## 📊 Detail Query Evaluasi (Ground Truth)
 
 Sistem diuji menggunakan 10 query pengujian berikut yang mewakili masing-masing topik kategori:
@@ -110,7 +90,4 @@ Sistem diuji menggunakan 10 query pengujian berikut yang mewakili masing-masing 
 
 Evaluasi dapat diakses secara langsung di route `/evaluation` pada web browser Anda untuk melihat visualisasi tabel performa dan matriks evaluasi global.
 
----
 
-**Tim Pengembang - Proyek UAS STKI**
-*   *Universitas Lampung*
